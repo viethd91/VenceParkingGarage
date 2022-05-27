@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2F7B541A-8973-47CA-AF40-E443C8E42802}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FCBAAFE4-B7CB-49B5-B554-DC6BC1D42A45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{4A9B4BA7-264B-4DCC-862E-55F4032DB555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VenceParkingGarage.Core.Domain", "..\VenceParkingGarage.Core.Domain\VenceParkingGarage.Core.Domain.csproj", "{1514BBF9-549D-426D-A663-521029704896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VenceParkingGarage.Core.Application", "..\VenceParkingGarage.Core.Application\VenceParkingGarage.Core.Application.csproj", "{D8676D57-645B-4A06-BF72-033E9876749C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VenceParkingGarage.Infrastructure.Persistence", "..\VenceParkingGarage.Infrastructure.Persistence\VenceParkingGarage.Infrastructure.Persistence.csproj", "{48BAFDDD-23C5-4388-9196-4DE9A6DE6D3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1514BBF9-549D-426D-A663-521029704896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1514BBF9-549D-426D-A663-521029704896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1514BBF9-549D-426D-A663-521029704896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1514BBF9-549D-426D-A663-521029704896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8676D57-645B-4A06-BF72-033E9876749C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8676D57-645B-4A06-BF72-033E9876749C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8676D57-645B-4A06-BF72-033E9876749C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8676D57-645B-4A06-BF72-033E9876749C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48BAFDDD-23C5-4388-9196-4DE9A6DE6D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BAFDDD-23C5-4388-9196-4DE9A6DE6D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BAFDDD-23C5-4388-9196-4DE9A6DE6D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BAFDDD-23C5-4388-9196-4DE9A6DE6D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1514BBF9-549D-426D-A663-521029704896} = {2F7B541A-8973-47CA-AF40-E443C8E42802}
+		{D8676D57-645B-4A06-BF72-033E9876749C} = {2F7B541A-8973-47CA-AF40-E443C8E42802}
+		{48BAFDDD-23C5-4388-9196-4DE9A6DE6D3E} = {FCBAAFE4-B7CB-49B5-B554-DC6BC1D42A45}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D08418E-F00F-4F8F-A517-A15F1ED8D1A5}
+	EndGlobalSection
+EndGlobal
