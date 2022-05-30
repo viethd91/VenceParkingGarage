@@ -6,14 +6,15 @@ namespace VenceParkingGarage.Core.Domain.Entities
 {
     public class ParkingSlotVehicle : BaseEntity
     {
-        public int SlotId { get; set; }
+        public int ParkingSlotId { get; set; }
         public ParkedVehicleInfo ParkedVehicle { get; private set; }
         public bool CurrentlyParked { get; set; }
 
         public ParkingSlotVehicle(int slotId, ParkedVehicleInfo parkedVehicle)
         {
-            SlotId = slotId;
+            ParkingSlotId = slotId;
             ParkedVehicle = parkedVehicle;
+            CurrentlyParked = true;
         }
 
         private ParkingSlotVehicle()

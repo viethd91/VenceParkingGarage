@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace VenceParkingGarage.Core.Domain.Exceptions
+namespace VenceParkingGarage.Core.Domain
 {
     public class SlotCurrentlyParkedException : Exception
     {

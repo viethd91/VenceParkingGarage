@@ -1,4 +1,7 @@
-﻿namespace Microsoft.eShopWeb.ApplicationCore.Interfaces;
+﻿namespace Microsoft.eShopWeb.ApplicationCore.Interfaces
+{
+    public interface IAggregateRoot
+    { }
+}
 
-public interface IAggregateRoot
-{ }
+
